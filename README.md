@@ -25,7 +25,7 @@ FastReID(sbs_R101-ibn)+RGT&RGPR(msmt17)[rank1/mAP_86.2/65.9->reRank-90.3/84.15]:
 FastReID(sbs_R101-ibn)+RGT(market)[rank1/mAP_96.5/91.2->reRank-96.9/95.6]: https://drive.google.com/file/d/1Dt1VyLHObZClMpv9uoMrw3k37SGj6XdI/view?usp=sharing
 
 
-############################################Use ReID_baseline to simply verify the effectiveness of our method#####################################################
+###########Use ReID_baseline to simply verify the effectiveness of our method##################
 
 download the code from the ReID_baseline, and then just do as follow:
 
