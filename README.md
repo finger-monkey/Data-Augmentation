@@ -16,10 +16,10 @@ The weight of code：
 
 strong_baseline(resnet50)+RGPR(market)[rank1/mAP:95.1/87.2->reRank:95.9/94.4]：https://drive.google.com/file/d/1aehExt5oZMzUD5Tj8Dau_vhTKy8xj1EB/view?usp=sharing
 
-strong_baseline(resnet50)+RGPR(duke)[rank1/mAP:87.3/77.3->reRank:91/89.4]：
+strong_baseline(resnet50)+RGPR(duke)[rank1/mAP:87.3/77.3->reRank:91/89.4]：https://drive.google.com/file/d/1sAXP2kuUwHTipXAyHZy2tsSsaqye112_/view?usp=sharing
 
-FastReID(sbs_R101-ibn)+RGPR(duke)[rank1/mAP_92.8/84.2->reRank:94.3/92.7]:
+FastReID(sbs_R101-ibn)+RGPR(duke)[rank1/mAP_92.8/84.2->reRank:94.3/92.7]: https://drive.google.com/file/d/13CgLZzLVpPXKAJJV4BH8PA0_1WeyYVEu/view?usp=sharing
 
-FastReID(sbs_R101-ibn)+RGT&RGPR(msmt17)[rank1/mAP_86.2/65.9->reRank-90.3/84.15]:
+FastReID(sbs_R101-ibn)+RGT&RGPR(msmt17)[rank1/mAP_86.2/65.9->reRank-90.3/84.15]: https://drive.google.com/file/d/1vPqEj1THd6KeRK0Jjg2TXSJnIq50AuXG/view?usp=sharing
 
-FastReID(sbs_R101-ibn)+RGT(market)[rank1/mAP_96.5/91.2->reRank-96.9/95.6]:
+FastReID(sbs_R101-ibn)+RGT(market)[rank1/mAP_96.5/91.2->reRank-96.9/95.6]: https://drive.google.com/file/d/1Dt1VyLHObZClMpv9uoMrw3k37SGj6XdI/view?usp=sharing
