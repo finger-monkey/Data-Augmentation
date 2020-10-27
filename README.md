@@ -33,11 +33,11 @@ download the code from the ReID_baseline, and then just do as follow:
 
 (2)add the code between lines 23-24 of 'train.py' file:  'from trans_gray import *' 
 
-(3)add the code between lines 76-77 of train.py file:'transforms.RandomGrayscale(0.05)' or 'RGTP(0.4)'
+(3)add the code between lines 76-77 of 'train.py' file:'transforms.RandomGrayscale(0.05)' or 'RGTP(0.4)'
 
 (4) change parameter 'num_epochs' to 120 on line 386, 
 
 (5)and use command 'python train.py --train_all' to train according to the tutorial provided by author,finally use 'test.py' to test.
 
-The author’s training accuracy is: r-1:88.84, mAP:71.59. You can also set 'transforms.RandomGrayscale(1)' verify that the contribution of grayscale information
-to the query task.
+The author’s training accuracy is: r-1:88.84, mAP:71.59. 
+You can also set 'transforms.RandomGrayscale(1)' in lines 76-77 and lines 83-84 verify that the contribution of grayscale information to the query task.
