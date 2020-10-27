@@ -23,3 +23,21 @@ FastReID(sbs_R101-ibn)+RGPR(duke)[rank1/mAP_92.8/84.2->reRank:94.3/92.7]: https:
 FastReID(sbs_R101-ibn)+RGT&RGPR(msmt17)[rank1/mAP_86.2/65.9->reRank-90.3/84.15]: https://drive.google.com/file/d/1vPqEj1THd6KeRK0Jjg2TXSJnIq50AuXG/view?usp=sharing
 
 FastReID(sbs_R101-ibn)+RGT(market)[rank1/mAP_96.5/91.2->reRank-96.9/95.6]: https://drive.google.com/file/d/1Dt1VyLHObZClMpv9uoMrw3k37SGj6XdI/view?usp=sharing
+
+
+############################################Use ReID_baseline to simply verify the effectiveness of our method#####################################################
+
+download the code from the ReID_baseline, and then just do as follow:
+
+(1)download our file 'trans_gray.py' and put it together with the code of ReID_baseline
+
+(2)add the code between lines 23-24 of 'train.py' file:  'from trans_gray import *' 
+
+(3)add the code between lines 76-77 of train.py file:'transforms.RandomGrayscale(0.05)' or 'RGTP(0.4)'
+
+(4) change parameter 'num_epochs' to 120 on line 386, 
+
+(5)and use command 'python train.py --train_all' to train according to the tutorial provided by author,finally use 'test.py' to test.
+
+The author’s training accuracy is: r-1:88.84, mAP:71.59. You can also set 'transforms.RandomGrayscale(1)' verify that the contribution of grayscale information
+to the query task.
