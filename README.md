@@ -1,5 +1,9 @@
 # An Effective Data Augmentation for person re-identification
-Code for paper : An Effective Data Augmentation for person re-identification(https://arxiv.org/abs/2101.08533). By providing this code, you can simply verify the validity of the method proposed in the paper.
+Code for paper : An Effective Data Augmentation for person re-identification(https://arxiv.org/abs/2101.08533). 
+
+By the way, we have implemented a good adversarial defense method of Reid on this basis (see another paper for details:A Person Re-identification Data Augmentation Method with Adversarial Defense Effect(https://arxiv.org/abs/2101.08783,the code is available at:https://github.com/finger-monkey/ReID_Adversarial_Defense))
+
+By providing this code, you can simply verify the validity of the method proposed in the paper.
 
 The baselines we use are the ReID_baseline[10]（see the paper） that the author of CVPR2019 paper [8] opened in the early stage, the strong baseline [1] and FastReID which were recently open sourced by one of the main authors in [1] . We have conducted experiments on three of the largest and most representative datasets, Market-1501[13], DukeMTMC[14], and MSMT17[16], and our method has significantly improved on all three of these baselines. Since the model requires more training epochs to fit than the original, we add 0.5-1.5 times more training epochs to the training process. 
 
