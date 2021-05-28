@@ -37,7 +37,7 @@ download the code from the ReID_baseline, and then just do as follow:
 
 (2)add the code between lines 23-24 of 'train.py' file:  'from trans_gray import *' 
 
-(3)add the code between lines 76-77 of 'train.py' file:'transforms.RandomGrayscale(0.05)' or 'RGPR(0.4)'
+(3)add the code between lines 76-77 of 'train.py' file:'transforms.RandomGrayscale(0.05)' or 'trans_gray.RGPR(0.4)'
 
 (4) change parameter 'num_epochs' to 120 on line 386, 
 
