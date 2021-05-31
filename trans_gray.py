@@ -6,9 +6,9 @@ import random
 import  numpy as np
 import random
 
-# This is the code of Random Grayscale Patch Replace
+# This is the code of Local Grayscale Transfomation
 
-class RGPR(object):
+class LGT(object):
 
     def __init__(self, probability=0.2, sl=0.02, sh=0.4, r1=0.3):
         self.probability = probability
