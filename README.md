@@ -1,5 +1,5 @@
 # An Effective Data Augmentation for person re-identification
-Code for paper : An Effective Data Augmentation for person re-identification(https://arxiv.org/abs/2101.08533). 
+Code for paper : An Effective Data Augmentation for person re-identification(https://arxiv.org/abs/2101.08533). The paper edition will be updated constantly, please check the latest edition.
 
 By the way, we have implemented a good adversarial defense method of Reid on this basis (see another paper for details:A Person Re-identification Data Augmentation Method with Adversarial Defense Effect(https://arxiv.org/abs/2101.08783, the code is available at:https://github.com/finger-monkey/ReID_Adversarial_Defense))
 
