@@ -1,7 +1,8 @@
 # An Effective Data Augmentation for person re-identification
 Code for paper : An Effective Data Augmentation for person re-identification(https://arxiv.org/abs/2101.08533). The paper edition will be updated constantly, please check the latest edition. You can see the Chinese version of this paper in the article 《基于灰度域特征增强的行人重识别方法》，which is more complete. Additional extensions may be added to the English version of the paper.
 
-By the way, we have implemented a good adversarial defense method of Reid on this basis (see another paper for details:A Person Re-identification Data Augmentation Method with Adversarial Defense Effect(https://arxiv.org/abs/2101.08783, the code is available at:https://github.com/finger-monkey/ReID_Adversarial_Defense))--》The latest version of the paper 'Robust Person Re-identification with Multi-Modal Joint Defence' can be viewed at http://arxiv.org/abs/2111.09571
+By the way, we have implemented a good adversarial defense method of Reid on this basis (see another paper for details:A Person Re-identification Data Augmentation Method with Adversarial Defense Effect(https://arxiv.org/abs/2101.08783, the code is available at:https://github.com/finger-monkey/ReID_Adversarial_Defense))
+--》The latest version of the paper 'Robust Person Re-identification with Multi-Modal Joint Defence' can be viewed at http://arxiv.org/abs/2111.09571
 
 By providing this code, you can simply verify the validity of the method proposed in the paper.
 
