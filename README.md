@@ -1,8 +1,5 @@
-# A general multi-modal data learning method for Person Re-identification
-Code for paper : A general multi-modal data learning method for Person Re-identification(https://arxiv.org/abs/2101.08533). The paper edition will be updated constantly, please check the latest edition. Additional extensions may be added to the English version of the paper.
+# Exploring Color Invariance through Image-Level Ensemble LearningExploring Color Invariance through Image-Level Ensemble Learning.
 
-By the way, we have implemented a good adversarial defense method of Reid on this basis (see another paper for details:A Person Re-identification Data Augmentation Method with Adversarial Defense Effect(https://arxiv.org/abs/2101.08783, the code is available at:https://github.com/finger-monkey/ReID_Adversarial_Defense))
---》The latest version of the paper 'Robust Person Re-identification with Multi-Modal Joint Defence' can be viewed at http://arxiv.org/abs/2111.09571   This paper studies adversarial attack and defense from a  novel perspective.
 
 By providing this code, you can simply verify the validity of the method proposed in the paper.
 
