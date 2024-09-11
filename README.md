@@ -43,3 +43,6 @@ download the code from the ReID_baseline, and then just do as follow:
 
 The author’s training accuracy is: r-1:88.84, mAP:71.59. 
 You can also set 'transforms.RandomGrayscale(1)' in lines 76-77 and lines 83-84 verify that the contribution of grayscale information to the query task.
+
+
+<a href="https://info.flagcounter.com/mRXd"><img src="https://s11.flagcounter.com/count/mRXd/bg_3F90EB/txt_FFFFFF/border_CCCCCC/columns_8/maxflags_12/viewers_Visitors+of+HMC+repo/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
