@@ -1,4 +1,4 @@
-# Exploring Color Invariance through Image-Level Ensemble Learning.(https://arxiv.org/abs/2401.10512)
+# Exploring Color Invariance through Image-Level Ensemble Learning.(https://arxiv.org/pdf/2101.08533)
 
 
 By providing this code, you can simply verify the validity of the method proposed in the paper.
